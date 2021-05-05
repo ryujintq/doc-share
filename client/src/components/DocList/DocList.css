@@ -1,0 +1,37 @@
+.doc-list {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-y: auto;
+}
+
+.sub-heading {
+    margin-bottom: 1rem;
+}
+
+.doc {
+    cursor: pointer;
+    width: 120px;
+    height: 150px;
+    padding: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+}
+
+.doc:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.doc p {
+    text-align: center;
+}
+
+.card {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+}

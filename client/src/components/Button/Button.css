@@ -1,0 +1,19 @@
+.button {
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    color: var(--primary);
+    background-color: var(--secondary);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+.button:active {
+    transform: scale(0.98);
+    box-shadow: 0 0 5px 2px var(--accent);
+}

@@ -1,0 +1,9 @@
+.small-link {
+    cursor: pointer;
+    align-self: center;
+}
+
+.small-link:hover,
+.small-link:active {
+    color: var(--accent);
+}

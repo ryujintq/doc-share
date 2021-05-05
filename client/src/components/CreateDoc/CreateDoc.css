@@ -1,0 +1,35 @@
+.docs-overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    display: none;
+}
+
+.show-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: var(--primary);
+    cursor: pointer;
+}
+
+.overlay-content {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
